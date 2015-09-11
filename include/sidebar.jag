@@ -1,0 +1,87 @@
+<html>
+	
+	
+	
+	
+<script>
+	<!---menu items load-------------->
+	 //$(function(){
+     //      $('#side-menu').on('click','a',function(e){
+     //         e.preventDefault();
+     //         $($(this).attr('rel')).load($(this).attr('href'));
+     //       });
+     //     });
+     
+    
+</script>
+<nav id="sidebartohide" class="navbar-default navbar-static-side" role="navigation">
+        <div class="sidebar-collapse">
+            <ul class="nav metismenu" id="side-menu">
+                <li class="nav-header">
+                    <div class="dropdown profile-element"> <span>
+                            <img alt="image" class="img-circle" src="assets/images/profiles/nadeesha.jpg" />
+                             </span>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">Nadeesha Weerasooriya</strong>
+                             </span> <span class="text-muted text-xs block">Admin <b class="caret"></b></span> </span> </a>
+                        <ul class="dropdown-menu animated fadeInRight m-t-xs">
+                            <li><a href="profile.html">Profile</a></li>
+                            <li><a href="contacts.html">Contacts</a></li>
+                            <li><a href="mailbox.html">Mailbox</a></li>
+                            <li class="divider"></li>
+                            <li><a href="login.html">Logout</a></li>
+                        </ul>
+                    </div>
+                    <div class="logo-element">
+                        <i class="fa fa2 fa-list"></i>
+                    </div>
+                </li>
+                <li id="menu_item_1" class="active">
+                    <a href="#"><i class="fa fa2 fa-th-large"></i> <span class="nav-label">Dashboard</span> </a>
+                    
+                </li>
+                <li id="menu_item_2">
+                    <a href="#"><i class="fa fa2 fa-check"></i> <span class="nav-label">Security</span></a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa2 fa-bell-o" id="content3"></i> <span class="nav-label">Alerts</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li id="menu_item_3.1"><a href="#" ><span>Alert List</span><span class="label_margin label label-danger pull-center">4</span></a></li>
+                        <li id="menu_item_3.2"><a href="#" >Actions Taken</a></li>
+                        <li id="menu_item_3.3"><a href="#" >System Improvements</a></li>
+
+                    </ul>
+                </li>
+				<li>
+                    <a href="#"><i class="fa fa2 fa-crosshairs"></i> <span class="nav-label">Detections</span><span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="#" >New Detections</a></li>
+                        <li><a href="#" >Detected List</a></li>
+                        <li><a href="#" >System Improvements</a></li>
+
+                    </ul>
+                </li>
+                <li>
+                    <a href="mailbox.html"><i class="fa fa2 fa-user"></i> <span class="nav-label">Profiles </span><span class="fa arrow"></span><span class="label_margin label label-warning pull-center">5</span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <li><a href="#" >View Profiles</a></li>
+                        <li><a href="#" >Add user</a></li>
+                        
+                    </ul>
+                </li>
+                
+                <li>
+                    <a href="widgets.html"><i class="fa fa2 fa-flask"></i> <span class="nav-label">Widgets</span><span class="fa arrow"></span></a>
+					<ul class="nav nav-second-level collapse">
+                        <li><a href="#" >Add Widgets</a></li>
+                        <li><a href="#">Widget List</a></li>
+                        <li><a href="#">Customize Widgets</a></li>
+                    </ul>
+                </li>
+                
+               
+            </ul>
+
+        </div>
+    </nav>
+</html>

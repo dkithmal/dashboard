@@ -1,0 +1,136 @@
+<html>
+
+<!-- Mainly scripts -->
+    <script src="assets/js/jquery-2.1.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/d3.min.js"></script>
+    
+     <!-- link to magicslideshow.css file -->
+     <link rel="stylesheet" type="text/css" href="assets/css/plugins/magicslideshow/magicslideshow.css" media="screen"/>
+     <!-- link to magicslideshow.js file -->
+     <script src="assets/js/plugins/magicslideshow/magicslideshow.js" type="text/javascript"></script>
+     
+
+
+<div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-md-2_new col-md-2">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-success pull-right">Total</span>
+                        <h5>Page Visits</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">386,200</h1>
+                        
+                        <small>Page Visits</small><a class="btn-more-infor btn btn-default btn-rounded" href="#">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2_new col-md-2">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-info pull-right">Users</span>
+                        <h5>Page Views</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">80,800</h1>
+                        
+                        <small>Page Views</small><a class="btn-more-infor btn btn-default btn-rounded" href="#">More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2_new col-md-2">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <span class="label label-success pull-right">Today</span>
+                        <h5>Page Visits</h5>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">6,735</h1>
+                        
+                        <small>Page Visits</small><a class="btn-more-infor btn btn-default btn-rounded" href="#">More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-2_new col-md-2">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>Threats</h5>
+                        <div class="ibox-tools">
+                            <span class="label label-primary">Updated 14.07.2015</span>
+                        </div>
+                    </div>
+                    <div class="ibox-content">
+                        <h1 class="no-margins">38</h1>
+                        
+                        <small>Threats</small><a class="btn-more-infor btn btn-default btn-rounded" href="#">More</a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+		<div class="col-md-9_new col-md-9">
+		<div class="ibox float-e-margins">
+             <div class="MagicSlideshow " data-options="width: 100%; arrows: false; selectors: bottom;">
+            <div>
+			<div class="ibox-title">
+                <h3>Dashboard</h3>
+			</div>
+			<div class="ibox-content">
+                <a>Click to add widget</a>
+				<div style="height:250px"></div>
+ 
+            </div>
+			</div>
+            <div>
+			<div class="ibox-title">
+                <h3>Dashboard</h3>
+			</div>
+			<div class="ibox-content">
+                 <a>Click to add widget</a>
+				<div style="height:250px"></div>
+			</div>
+			</div>
+            <div>
+			<div class="ibox-title">
+                 <h3>Dashboard</h3>
+			</div>
+			<div class="ibox-content">
+                 <a>Click to add widget</a>
+				<div style="height:250px"></div>
+		   </div>
+			</div>
+			<div>
+			<div class="ibox-title">
+                <h3>Dashboard</h3>
+			</div>
+			<div class="ibox-content">
+                <a>Click to add widget</a>
+				<div style="height:250px"></div>
+ 
+            </div>
+			</div>
+        </div>
+		</div>
+        </div>
+		</div>
+        <div class="row">
+
+        
+
+        </div>
+
+
+        </div>
+
+
+        
+
+        </div>
+
+</html>

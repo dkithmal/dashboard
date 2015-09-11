@@ -1,0 +1,148 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard</title>
+
+    
+    <link href="assets/css/bootstrap/bootstrapOverride.css" rel="stylesheet">
+    <link href="assets/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="assets/font-awesome/css/font-awsome-override.css" rel="stylesheet">
+    <!-- Morris -->
+    <link href="assets/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
+
+    <link href="assets/css/animate.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    
+    <!-- Data Tables -->
+    <link href="assets/css/plugins/dataTables/dataTables.bootstrap.css" rel="stylesheet">
+    <link href="assets/css/plugins/dataTables/dataTables.responsive.css" rel="stylesheet">
+    <link href="assets/css/plugins/dataTables/dataTables.tableTools.min.css" rel="stylesheet">
+	
+     <!-- link to magicslideshow.css file -->
+     <link rel="stylesheet" type="text/css" href="assets/css/plugins/magicslideshow/magicslideshow.css" media="screen"/>
+     <!-- link to magicslideshow.js file -->
+     <script src="assets/js/plugins/magicslideshow/magicslideshow.js" type="text/javascript"></script>
+     
+     <!-- Mainly scripts -->
+    <script src="assets/js/jquery-2.1.1.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/metisMenu/jquery.metisMenu.js"></script>
+    <script src="assets/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
+    <script src="assets/js/d3.min.js"></script>
+
+   
+    <!-- Custom and plugin javascript -->
+    <script src="assets/js/inspinia.js"></script>
+    <script src="assets/js/plugins/pace/pace.min.js"></script>
+    
+    <script src="assets/js/charts/draw_404_request_summary_chart.js"></script>
+    <script src="assets/js/dao/get_404_request_data_grp_by_id.js"></script>
+    <script src="assets/js/dao/get_and_show_404_request_data.js"></script>
+	<script src="assets/js/dao/get_data_grup_by_ip.js"></script>
+    
+    <!-- Data Tables -->
+    <script src="assets/js/plugins/dataTables/jquery.dataTables.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.bootstrap.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.responsive.js"></script>
+    <script src="assets/js/plugins/dataTables/dataTables.tableTools.min.js"></script>
+    
+    
+     <script type='text/javascript'>
+		 
+		 
+		 <!---------load includes-------->
+		 
+		 
+	$(document).ready(function(){ 
+	  //$.get("include/sidebar.jag", function(data) {
+	    //$("#sidebar").html(data);
+	  //});
+	  //$.get("include/page_header.jag", function(data) {
+	    //$("#header").html(data);
+	  //});
+	  
+	  //$.get("include/page_footer.jag", function(data) {
+	    //$("#footer").html(data);
+	  //});
+	
+	
+	<!----on page load---->
+	
+	$.get("pages/home_page.jag", function(data) {
+	    $("#content").html(data);
+	  });
+	<!---------menu functions-------->
+	 
+    
+    $("#menu_item_1").click(function(){
+        $.get("pages/home_page.jag", function(data) {
+	    $("#content").html(data);
+	  });
+    });
+    $("#menu_item_2").click(function(){
+        $.get("pages/security.jag", function(data) {
+	    $("#content").html(data);
+	  });
+    });
+    $("#menu_item_3.1").click(function(){
+        $.get("pages/alert_list.jag", function(data) {
+	    $("#content").html(data);
+	  });
+    });
+    $("#menu_item_3.2").click(function(){
+        $.get("pages/actions_taken.jag", function(data) {
+	    $("#content").html(data);
+	  });
+    });
+    $("#menu_item_3.3").click(function(){
+        $.get("pages/system_improvements.jag", function(data) {
+	    $("#content").html(data);
+	  });
+    });
+    
+    
+});
+     </script>
+
+</head>
+
+<body>
+    <div id="wrapper">
+    
+		<div id="sidebar">
+			
+	<% 
+	include_once("include/sidebar.jag")
+	%>
+	
+		</div>
+		<div id="page-wrapper" class="gray-bg">
+				<div id="header">
+				<% 
+				include_once("include/page_header.jag")
+				%>
+
+				</div>
+				<div id="content"></div>
+				<div id="footer">
+				<% 
+	            include_once("include/page_footer.jag")
+	            %>
+				</div>
+		</div>
+
+
+			
+
+		
+	</div>
+   
+</body>
+</html>

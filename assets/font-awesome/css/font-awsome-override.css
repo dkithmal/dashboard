@@ -1,0 +1,14 @@
+
+.fa2 {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: large !important;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transform: translate(0, 0);
+}
+
+.fa_times_colour{
+	color: #E23939 !important;
+}

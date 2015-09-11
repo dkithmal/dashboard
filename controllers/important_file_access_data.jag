@@ -1,0 +1,25 @@
+<%
+var log = new Log();
+log.info("Access Summary Server");
+
+
+        try{
+            var db = new Database("jdbc:mysql://localhost:3306/access_log_summary", "root", "password");
+
+            //db.query("INSERT INTO demo VALUES('WSO2','59 Flower Rd'), ('WSO2 UK', 'Emsworth, Hampshire, UK');");
+
+            var result = db.query("SELECT * FROM ImportantFileAccessInfoLastHour");
+	       //print(result);
+            response.contentType = "application/json";
+            response.characterEncoding = "UTF-8";
+            response.content = result;
+        }
+        catch(e){
+            print(e.toString()); // TODO: use log.info instead of printing error
+        }
+        finally{
+            db.close();
+        }
+
+
+%>
